@@ -1,6 +1,17 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# Ethereum DEX & Swap DApp
 
-## Getting Started
+A decentralized exchange (DEX) DApp built on Ethereum, featuring a **Trade Panel** and **Swap Page**. It uses **Uniswap liquidity pools** for secure and seamless token swaps.
+
+## Features
+- **Trade Panel**: Place market and limit orders.
+- **Swap Page**: Swap tokens instantly via Uniswap liquidity pools.
+- **Ethereum-Based**: Compatible with Ethereum wallets like MetaMask and WalletConnect.
+- **Decentralized**: Users retain full control of their funds.
+
+## Tech Stack
+- **Frontend**: Next.js, React, TypeScript
+- **Blockchain Interaction**: Ethers.js, Wagmi
+- **Smart Contracts**: Solidity (deployed on Ethereum Mainnet & Sepolia testnet)
 
 First, run the development server:
 
