@@ -1,0 +1,39 @@
+{
+  "compilerOptions": {
+    "typeRoots": ["src/types"],
+    "target": "ES2020", // Use a more recent target to support modern JavaScript features
+    "module": "commonjs", // Use commonjs for Node.js compatibility
+    "lib": ["dom", "dom.iterable", "ES2020"], // Include ES2020 for modern features
+    "allowJs": true,
+    "skipLibCheck": true,
+    "strict": true,
+    "esModuleInterop": true,
+    "moduleResolution": "node", // Node-style module resolution
+    "resolveJsonModule": true,
+    "isolatedModules": true,
+    "jsx": "preserve",
+    "incremental": true,
+    "forceConsistentCasingInFileNames": true,
+    "outDir": "dist",
+    "declaration": true,
+    "paths": {
+      "@/*": ["./*"] // Keep this for Next.js compatibility
+    },
+    "noEmit": true,
+    "plugins": [
+      {
+        "name": "next"
+      }
+    ]
+  },
+  "include": [
+    "./scripts",
+    "./test",
+    "./typechain",
+    "next-env.d.ts",
+    "**/*.ts",
+    "**/*.tsx",
+    ".next/types/**/*.ts"
+  ],
+  "exclude": ["node_modules"]
+}
